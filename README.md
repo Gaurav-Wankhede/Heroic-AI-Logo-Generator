@@ -38,9 +38,16 @@ npm install
 3. Set up environment variables:
 Create a `.env` file with the following variables:
 ```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-GOOGLE_AI_KEY=your_google_ai_key
+NEXT_PUBLIC_GEMINI_API_KEY=
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_FIREBASE_API_KEY=
+
+HUGGING_FACE_API_KEY=
+
+REPLICATE_API_TOKEN=
 ```
 
 4. Run the development server:
